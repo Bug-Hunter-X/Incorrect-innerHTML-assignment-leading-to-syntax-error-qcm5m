@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be replaced.
+  </div>
+
+  <script>
+    // Correct way to replace innerHTML with an element
+    const newParagraph = document.createElement("p");
+    newParagraph.textContent = "This is a paragraph.";
+    document.getElementById("myDiv").appendChild(newParagraph);
+  </script>
+</body>
+</html>
