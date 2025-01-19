@@ -1,0 +1,1 @@
+This repository demonstrates a common error when using innerHTML in HTML. The `bug.html` file contains the erroneous code.  The `bugSolution.html` file provides the corrected version.  The error involves trying to directly assign an HTML element to innerHTML; a syntax error will result. The solution involves creating the element using JavaScript's DOM API.
